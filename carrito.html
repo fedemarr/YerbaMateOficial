@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito - Verdemate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Menú -->
+  <nav>
+    <div class="nav-container">
+      <a href="index.html">
+        <img src="logo2.png" alt="Logo Yerba Mate" class="logo-menu">
+      </a>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sección Carrito -->
+  <section id="carrito">
+    <h1>Tu Carrito</h1>
+    <ul id="lista-carrito"></ul>
+
+    <div class="acciones-carrito">
+      <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+      <button onclick="enviarCarritoWhatsApp()">Enviar por WhatsApp</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 YerbaMate. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="carrito.js"></script>
+</body>
+</html>
